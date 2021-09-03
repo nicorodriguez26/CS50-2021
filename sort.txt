@@ -1,0 +1,37 @@
+// CS50 2021 - Introduction to Computer Science.
+// Week 3 - Laboratory 3 - Language: Plain text
+// Sort - sort.txt
+// Nicolas Rodriguez Aldegheri
+// 20/08/21
+
+
+sort1 uses: Bubble Sort
+
+How do you know?: It takes almost twice as long as sort3 with a reversed text
+
+sort2 uses: Merge Sort
+
+How do you know?: It was the fastest of all to process the files
+
+sort3 uses: Selection Sort
+
+How do you know?: It takes longer compared to sort1 even with sorted text
+
+####################
+
+sort1:
+random10000.txt ->   0.501s
+reversed10000.txt -> 0.398s
+sorted10000.txt ->   0.069s
+--------------------
+sort2:
+random10000.txt ->   0.092s
+reversed10000.txt -> 0.018s
+sorted10000.txt ->   0.020s
+--------------------
+sort3:
+random10000.txt ->   0.173s
+reversed10000.txt -> 0.175s
+sorted10000.txt ->   0.202s
+
+####################
